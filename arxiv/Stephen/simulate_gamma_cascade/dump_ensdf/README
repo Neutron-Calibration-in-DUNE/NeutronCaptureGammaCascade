@@ -1,0 +1,1 @@
+To get 40Ar + n do: python dump_ensdf.py 18 41 >> Ar41.txt
