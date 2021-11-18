@@ -28,6 +28,7 @@ def plot_spectrum(
         axs.set_title("Gamma cascade energy (MeV)\n"+title)
     else:
         axs.set_title("Gamma cascade energy (MeV)")
+    plt.legend()
     plt.tight_layout()
     if save_plot != '':
         plt.savefig(save_plot)
@@ -36,7 +37,7 @@ def plot_spectrum(
 
 if __name__ == "__main__":
     plot_spectrum(
-        "build/output.txt",
+        "results/ar36_results.txt",
         title="Ar36 Neutron Capture",
-        save_plot="ar36_neutron_capture.png"
+        save_plot="plots/ar36_neutron_capture.png"
     )
