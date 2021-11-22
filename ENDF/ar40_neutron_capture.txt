@@ -1,0 +1,108 @@
+ 41AR    40AR(N,G),(POL N,G) E=THERMAL 1970HA56,1972ST04,1967LY0516NDS    201603
+ 41AR  H TYP=FUL$AUT=C.D. Nesaraja, E.A. McCutchan$CIT=NDS 133, 1 (2016)$       
+ 41AR2 H CUT=30-Sep-2015$                                                       
+ 41AR c  1972St04: (pol n,|g). Circular polarization measured for states up     
+ 41AR2c  to 3.4 MeV. Determined J|p.                                            
+ 41AR c  1970Ha56 (also 1967Ar14): Neutrons produced from heavy water reactor   
+ 41AR2c  at Stockholm. Measured E|g, I|g for secondary and                      
+ 41AR2c  primary transitions using a Ge(Li) detector                            
+ 41AR c  1968Sk02: Neutrons produced from heavy water reactor at Stockholm.     
+ 41AR2c  Measured E|g from thermal neutron capture of natural argon target      
+ 41AR3c  with Ge(Li) detector and an anticoincidence spectrometers              
+ 41AR c  1967Ly05: (n,|g). Measured 25 transitions; E|g, I|g, |g|g using Ge(Li) 
+ 41AR2c  detectors                                                              
+ 41AR c  1962Ba22: Pair-spectrometer measurements at Chalk River Laboratories.  
+ 41AR2c  Measured, two |g energies and their intensities and  |g|g-coin. using  
+ 41AR3c  NaI detectors                                                          
+ 41AR c                                                                         
+ 41AR cG $Polarization functions (ratio R) for circular polarization are        
+ 41AR2cG from 1972St04                                                          
+ 41AR cG E,RI$From 1970Ha56. Values given by 1967Ly05 agree with those          
+ 41AR2cG from 1970Ha56, but are less precise. E|g reported by 1970Ha56 and      
+ 41AR3cG 1967Ly05 were recoil corrected. Recoil energies have been substracted  
+ 41AR4cG by evaluators.                                                         
+ 41AR cL J$From Adopted Levels, unless otherwise stated                         
+ 41AR cL J(A)$From circular polarization measurement                            
+ 41AR2cL for primary |g (1972St04)                                              
+ 41AR cL E$From least-squares fit to E|g's                                      
+ 41AR  N  0.93                                                                  
+ 41AR cN NR$Normalized assuming |SI|g(g.s.)=100.                                
+ 41AR PN                                                                    C4  
+ 41AR2PN $ PER 100 N-CAPTURES                                                   
+ 41AR  G 3658.5    18 0.25                                                      
+ 41AR  G 4916.8    20 0.07                                                      
+ 41AR  G 5448.6    25 0.05                                                      
+ 41AR  G 5960.2    25 0.01                                                      
+ 41AR  G 6062.6    25 0.04                                                      
+ 41AR  G 6082.3    25 0.02                                                      
+ 41AR  G 6092.8    25 0.03                                                      
+ 41AR  G 6142.0    25 0.02                                                      
+ 41AR  L 0           7/2-                                                       
+ 41AR  L 167.3     17 5/2-                                                      
+ 41AR  G 167.3     2 79.6                                                       
+ 41AR  L 516.1     213/2-                                                   A   
+ 41AR  G 348.7     3 6.6                                                        
+ 41AR  G 516.0     3 25.3                                                       
+ 41AR  L 1034.7    6 3/2+                                                       
+ 41AR  G 867.3     6 1.1                                                        
+ 41AR  L 1353.9    223/2-                                                   A   
+ 41AR  G 837.7     3 9.6                                                        
+ 41AR  G 1186.8    3 52.2                                                       
+ 41AR  G 1354.0    4 2.3                                                        
+ 41AR  L 2398.1     41/2-                                                   A   
+ 41AR  G 1044.3    4 6.0                                                        
+ 41AR  G 1881.5    10 1.4                                                       
+ 41AR  G 2229.5    20 0.29                                                      
+ 41AR  L 2693       3                                                          ?
+ 41AR  L 2733.4    7 3/2-                                                   A   
+ 41AR  G 2566.1    8 2.8                                                        
+ 41AR  L 2948.7     73/2-                                                   A   
+ 41AR  G 2432.5    8 0.84                                                       
+ 41AR  G 2781.8    15 1.7                                                       
+ 41AR  L 3009.6     8 3/2-                                                      
+ 41AR  G 2842.5    10 0.88                                                      
+ 41AR  L 3111.4    22                                                          ?
+ 41AR  G 3111.3    22 0.40                                                  &   
+ 41AR  L 3278.7    22                                                          ?
+ 41AR  G 3111.3    22 0.40                                                  &   
+ 41AR  L 3326.8     61/2-                                                   A   
+ 41AR  G 1972.6    12 0.54                                                      
+ 41AR  G 2291.6    20 0.20                                                      
+ 41AR  G 2810.5    8 5.9                                                        
+ 41AR  L 3430.7    21                                                          ?
+ 41AR  L 3564.9    25                                                          ?
+ 41AR  G 3564.7    25 0.13                                                  &   
+ 41AR  L 3573       3                                                          ?
+ 41AR  G 3405.5    25 0.08                                                  &   
+ 41AR  L 3702.9    21                                                          ?
+ 41AR  G 2668.1    20 0.51                                                  &   
+ 41AR  L 3732       3                                                          ?
+ 41AR  G 3564.5    25 0.13                                                  &   
+ 41AR  L 3968.2     6 1/2-                                                      
+ 41AR  G 2614.3    8 2.9                                                        
+ 41AR  G 3451.8    10 2.0                                                       
+ 41AR  L 4270.0    10   3/2-                                                    
+ 41AR  G 4102.5    15 0.3                                                       
+ 41AR  L 6098.9     4  1/2+                                                    S
+ 41AR cL E$6098.9 {I3} from 2012Wa38                                            
+ 41AR cL J$s-wave capture in {+40}Ar g.s.                                       
+ 41AR  G 1828.8    12 1.0                                                       
+ 41AR  G 2130.7    8 4.4                                                        
+ 41AR  G 2668.1    20 0.51                                                  &   
+ 41AR  G 2771.8    8 8.6                                                        
+ 41AR cG $R=+0.45 {I18}. 2772|g is unresolved from 2782|g (from 2948 level) in  
+ 41AR2cG 1972St04                                                               
+ 41AR  G 3089.4    10 1.1                                                       
+ 41AR  G 3150.2    10 4.0                                                       
+ 41AR cG $R=-0.4 {I4}                                                           
+ 41AR  G 3365.5    10 4.2                                                       
+ 41AR cG $R=-0.8 {I4}                                                           
+ 41AR  G 3405.3    25 0.08                                                  &   
+ 41AR  G 3700.4    8 9.8                                                        
+ 41AR cG $R=+1.27 {I17}                                                         
+ 41AR  G 4745.0    8 55.0                                                       
+ 41AR cG $R=-0.46 {I2}                                                          
+ 41AR  G 5063.7    10 0.26                                                      
+ 41AR  G 5582.0    8 11.6                                                       
+ 41AR cG $R=-0.44 {I6}                                                          
+
