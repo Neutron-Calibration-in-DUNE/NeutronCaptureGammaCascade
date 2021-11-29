@@ -297,4 +297,21 @@ namespace cascade
         }
         output.close();
     }
+
+    void Cascade::save_levels(std::string output_file)
+    {
+        std::ofstream output;
+        output.open(output_file);
+        for (size_t i = 0; i < fParser.numLevels(); i++)
+        {
+            for (size_t j = 0; j < fParser[i].gammas.size(); j++)
+            {
+                output << i << "," << fParser[i].energy << "," << j << "," << fParser[i].gammas[j].energy;
+                output << "," << fParser[i].gammas[j].rel_intensity << ",";
+                output << fParser[i].probabilities[j] << "," << fParser[i].cumulative_probabilities[j];
+                output << "," << fParser[i].next_level[j] << "\n";
+            }
+        }
+        output.close();
+    }
 }

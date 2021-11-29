@@ -37,7 +37,7 @@ def plot_spectrum(
 
 if __name__ == "__main__":
     plot_spectrum(
-        "results/ar40_results.txt",
+        "results/ar40_results_python.txt",
         title="Ar40 Neutron Capture",
-        save_plot="plots/ar40_neutron_capture.png"
+        save_plot="plots/ar40_neutron_capture_python.png"
     )

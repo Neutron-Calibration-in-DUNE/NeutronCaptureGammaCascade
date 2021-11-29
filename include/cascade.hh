@@ -100,6 +100,8 @@ namespace cascade
 
         void save();
 
+        void save_levels(std::string output_file);
+
     private:
         ENDFParser fParser;
         FILE *fFile;

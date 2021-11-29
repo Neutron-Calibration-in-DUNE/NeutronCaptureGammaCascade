@@ -48,5 +48,6 @@ int main(int argc, char** argv)
 
     cascade::Cascade cas(inputFile, numEvents, outputFile);
     cas.save();
+    cas.save_levels("ar40_levels.txt");
     return 0;
 }
