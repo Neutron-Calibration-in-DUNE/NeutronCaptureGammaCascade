@@ -23,11 +23,11 @@ def plot_spectrum(
     
     fig, axs = plt.subplots()
     axs.hist(energies, bins=500, label="{} events".format(len(cascades)))
-    axs.set_xlabel("Energy (MeV)")
+    axs.set_xlabel("Energy (keV)")
     if title != '':
-        axs.set_title("Gamma cascade energy (MeV)\n"+title)
+        axs.set_title("Gamma cascade energy (keV)\n"+title)
     else:
-        axs.set_title("Gamma cascade energy (MeV)")
+        axs.set_title("Gamma cascade energy (keV)")
     plt.legend()
     plt.tight_layout()
     if save_plot != '':
